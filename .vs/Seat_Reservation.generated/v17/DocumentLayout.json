@@ -1,0 +1,82 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Rangana\\Seat_Reservation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1FF62E48-9651-4506-9065-3E896A744509}|Seat_Reservation.csproj|c:\\users\\rangana\\seat_reservation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FF62E48-9651-4506-9065-3E896A744509}|Seat_Reservation.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FF62E48-9651-4506-9065-3E896A744509}|Seat_Reservation.csproj|c:\\users\\rangana\\seat_reservation\\migrations\\20240824084908_seattet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FF62E48-9651-4506-9065-3E896A744509}|Seat_Reservation.csproj|solutionrelative:migrations\\20240824084908_seattet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FF62E48-9651-4506-9065-3E896A744509}|Seat_Reservation.csproj|c:\\users\\rangana\\seat_reservation\\models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FF62E48-9651-4506-9065-3E896A744509}|Seat_Reservation.csproj|solutionrelative:models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20240824084908_seattet.cs",
+              "DocumentMoniker": "C:\\Users\\Rangana\\Seat_Reservation\\Migrations\\20240824084908_seattet.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240824084908_seattet.cs",
+              "ToolTip": "C:\\Users\\Rangana\\Seat_Reservation\\Migrations\\20240824084908_seattet.cs",
+              "RelativeToolTip": "Migrations\\20240824084908_seattet.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T08:49:11.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\Rangana\\Seat_Reservation\\Models\\LoginDto.cs",
+              "RelativeDocumentMoniker": "Models\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\Rangana\\Seat_Reservation\\Models\\LoginDto.cs",
+              "RelativeToolTip": "Models\\LoginDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T08:46:28.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Rangana\\Seat_Reservation\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Rangana\\Seat_Reservation\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T08:33:47.526Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
