@@ -73,7 +73,28 @@ return NoContent();
 [Route("registration")]
 public IActionResult RegisterUser([FromBody]User Model){
      _context.Add(Model);
+     _context.SaveChanges();
     return Ok();
+}
+
+[HttpGet("{Email}")]
+
+public IActionResult Password_Change([FromRoute] string Email){
+    var user=_context.Users.FirstOrDefault(x => x.Email==Email);
+    if(user!=null){
+      
+       return Ok(user);
+
+    }
+
+    return Ok();
+
+    
+}
+[HttpGet]
+public IActionResult getall(){
+    var all=_context.Users.ToList();
+    return Ok(all);
 }
 
 
