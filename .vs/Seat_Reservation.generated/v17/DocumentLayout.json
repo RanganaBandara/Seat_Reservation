@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Rangana\\Seat_Reservation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1FF62E48-9651-4506-9065-3E896A744509}|Seat_Reservation.csproj|c:\\users\\rangana\\seat_reservation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FF62E48-9651-4506-9065-3E896A744509}|Seat_Reservation.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B2FBA28-965B-45C8-9F21-33C4AF45C29C}|Seat_Reservation.csproj|c:\\users\\rangana\\seat_reservation\\controllers\\seatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B2FBA28-965B-45C8-9F21-33C4AF45C29C}|Seat_Reservation.csproj|solutionrelative:controllers\\seatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1FF62E48-9651-4506-9065-3E896A744509}|Seat_Reservation.csproj|c:\\users\\rangana\\seat_reservation\\migrations\\20240824084908_seattet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FF62E48-9651-4506-9065-3E896A744509}|Seat_Reservation.csproj|solutionrelative:migrations\\20240824084908_seattet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B2FBA28-965B-45C8-9F21-33C4AF45C29C}|Seat_Reservation.csproj|c:\\users\\rangana\\seat_reservation\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B2FBA28-965B-45C8-9F21-33C4AF45C29C}|Seat_Reservation.csproj|solutionrelative:models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1FF62E48-9651-4506-9065-3E896A744509}|Seat_Reservation.csproj|c:\\users\\rangana\\seat_reservation\\models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FF62E48-9651-4506-9065-3E896A744509}|Seat_Reservation.csproj|solutionrelative:models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B2FBA28-965B-45C8-9F21-33C4AF45C29C}|Seat_Reservation.csproj|c:\\users\\rangana\\seat_reservation\\models\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B2FBA28-965B-45C8-9F21-33C4AF45C29C}|Seat_Reservation.csproj|solutionrelative:models\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rangana\\Seat_Reservation\\Migrations\\20240825114032_seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240825114032_seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2FBA28-965B-45C8-9F21-33C4AF45C29C}|Seat_Reservation.csproj|c:\\users\\rangana\\seat_reservation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B2FBA28-965B-45C8-9F21-33C4AF45C29C}|Seat_Reservation.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2FBA28-965B-45C8-9F21-33C4AF45C29C}|Seat_Reservation.csproj|c:\\users\\rangana\\seat_reservation\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B2FBA28-965B-45C8-9F21-33C4AF45C29C}|Seat_Reservation.csproj|solutionrelative:models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2FBA28-965B-45C8-9F21-33C4AF45C29C}|Seat_Reservation.csproj|c:\\users\\rangana\\seat_reservation\\models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B2FBA28-965B-45C8-9F21-33C4AF45C29C}|Seat_Reservation.csproj|solutionrelative:models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,20 +54,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20240824084908_seattet.cs",
-              "DocumentMoniker": "C:\\Users\\Rangana\\Seat_Reservation\\Migrations\\20240824084908_seattet.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240824084908_seattet.cs",
-              "ToolTip": "C:\\Users\\Rangana\\Seat_Reservation\\Migrations\\20240824084908_seattet.cs",
-              "RelativeToolTip": "Migrations\\20240824084908_seattet.cs",
+              "DocumentIndex": 3,
+              "Title": "20240825114032_seat.cs",
+              "DocumentMoniker": "C:\\Users\\Rangana\\Seat_Reservation\\Migrations\\20240825114032_seat.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240825114032_seat.cs",
+              "ToolTip": "C:\\Users\\Rangana\\Seat_Reservation\\Migrations\\20240825114032_seat.cs",
+              "RelativeToolTip": "Migrations\\20240825114032_seat.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T08:49:11.025Z",
+              "WhenOpened": "2024-08-25T11:40:40.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Rangana\\Seat_Reservation\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Rangana\\Seat_Reservation\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Models\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAQAAAA4MzMzMzMrwA0AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T11:03:33.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "C:\\Users\\Rangana\\Seat_Reservation\\Models\\Reservation.cs",
+              "RelativeDocumentMoniker": "Models\\Reservation.cs",
+              "ToolTip": "C:\\Users\\Rangana\\Seat_Reservation\\Models\\Reservation.cs",
+              "RelativeToolTip": "Models\\Reservation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T11:02:54.466Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Seat.cs",
+              "DocumentMoniker": "C:\\Users\\Rangana\\Seat_Reservation\\Models\\Seat.cs",
+              "RelativeDocumentMoniker": "Models\\Seat.cs",
+              "ToolTip": "C:\\Users\\Rangana\\Seat_Reservation\\Models\\Seat.cs",
+              "RelativeToolTip": "Models\\Seat.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T11:02:00.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SeatController.cs",
+              "DocumentMoniker": "C:\\Users\\Rangana\\Seat_Reservation\\Controllers\\SeatController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SeatController.cs",
+              "ToolTip": "C:\\Users\\Rangana\\Seat_Reservation\\Controllers\\SeatController.cs",
+              "RelativeToolTip": "Controllers\\SeatController.cs",
+              "ViewState": "AQIAADAAAAAAMzMzMzMjwEAAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T11:00:48.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "C:\\Users\\Rangana\\Seat_Reservation\\Models\\LoginDto.cs",
               "RelativeDocumentMoniker": "Models\\LoginDto.cs",
@@ -59,17 +127,18 @@
               "RelativeToolTip": "Models\\LoginDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T08:46:28.469Z"
+              "WhenOpened": "2024-08-24T08:46:28.469Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Rangana\\Seat_Reservation\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\Rangana\\Seat_Reservation\\Controllers\\UserController.cs",
               "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAAsAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-24T08:33:47.526Z",
               "EditorCaption": ""

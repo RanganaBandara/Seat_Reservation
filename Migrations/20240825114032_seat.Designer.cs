@@ -12,8 +12,8 @@ using Seat_Reservation.Models;
 namespace Seat_Reservation.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240824084908_seattet")]
-    partial class seattet
+    [Migration("20240825114032_seat")]
+    partial class seat
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -46,6 +46,56 @@ namespace Seat_Reservation.Migrations
                     b.ToTable("LoginDtos");
                 });
 
+            modelBuilder.Entity("Seat_Reservation.Models.Reservation", b =>
+                {
+                    b.Property<int>("ReservationId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ReservationId"));
+
+                    b.Property<string>("EmployeeId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("EmployeeName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("ReservationDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("SeatId")
+                        .HasColumnType("int");
+
+                    b.HasKey("ReservationId");
+
+                    b.HasIndex("SeatId")
+                        .IsUnique();
+
+                    b.ToTable("Reservations");
+                });
+
+            modelBuilder.Entity("Seat_Reservation.Models.Seat", b =>
+                {
+                    b.Property<int>("SeatId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SeatId"));
+
+                    b.Property<bool>("IsReserved")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("SeatNumber")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("SeatId");
+
+                    b.ToTable("Seats");
+                });
+
             modelBuilder.Entity("Seat_Reservation.Models.User", b =>
                 {
                     b.Property<int>("User_Id")
@@ -75,6 +125,22 @@ namespace Seat_Reservation.Migrations
                     b.HasKey("User_Id");
 
                     b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("Seat_Reservation.Models.Reservation", b =>
+                {
+                    b.HasOne("Seat_Reservation.Models.Seat", "Seat")
+                        .WithOne("Reservation")
+                        .HasForeignKey("Seat_Reservation.Models.Reservation", "SeatId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Seat");
+                });
+
+            modelBuilder.Entity("Seat_Reservation.Models.Seat", b =>
+                {
+                    b.Navigation("Reservation");
                 });
 #pragma warning restore 612, 618
         }
