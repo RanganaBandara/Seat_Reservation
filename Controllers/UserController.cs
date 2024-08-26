@@ -38,7 +38,7 @@ public UserController(ApplicationDbContext context ,IConfiguration configuration
 [Route("Login")]
 
 public IActionResult Login(LoginDto loginDto){
-var user=_context.Users.FirstOrDefault(x => x.Email==loginDto.Email && x.password==loginDto.Password);
+var user=_context.Users.FirstOrDefault(x => x.Email==loginDto.Email && x.Password==loginDto.Password);
 if(user!=null){
     var claims=new[]
     {
@@ -69,8 +69,8 @@ return NoContent();
 }
 
 //Registration Api
-  [HttpPost]
-[Route("registration")]
+  [HttpPost("{Registration}")]
+
 public IActionResult RegisterUser([FromBody]User Model){
      _context.Add(Model);
      _context.SaveChanges();
