@@ -44,7 +44,7 @@ namespace Seat_Reservation.Controllers
         [HttpPost("Reserve")]
         public async Task<ActionResult<Seat>> ReserveSeat([FromBody] Reservation reservation)
         {
-            var seat = await _context.Seats.FindAsync(reservation.SeatId);
+            var seat = await _context.Seats.FindAsync(reservation.SeatNumber);
 
             if (seat == null || seat.IsReserved)
             {

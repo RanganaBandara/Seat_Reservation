@@ -10,7 +10,7 @@ namespace Seat_Reservation.Models
     {
         [Key]
         public int ReservationId { get; set; }
-        public int SeatId { get; set; }
+        public int SeatNumber { get; set; }
         public Seat ? Seat { get; set; }
         public string EmployeeId { get; set; }
         public string EmployeeName { get; set; }

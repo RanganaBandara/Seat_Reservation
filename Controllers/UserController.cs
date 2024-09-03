@@ -8,6 +8,7 @@ using System.Security.Claims;
 using System.IO;
 using System.Text;
 using Microsoft.IdentityModel.Tokens;
+using System.Security.Cryptography;
 
 
 namespace Seat_Reservation.Controllers;
@@ -96,6 +97,28 @@ public IActionResult getall(){
     var all=_context.Users.ToList();
     return Ok(all);
 }
+}
 
+//forget password
+/*/
+[HttpPost("forgot-password")]
+
+public IActionResult ForgetPassword(string email){
+ var user=_context.Users.FirstOrDefault(u=>u.Email==email);
+ if(user==null){
+    return NotFound();
+ }
+ user. PasswordResetToken=CreateRandomToken();
+ _context.SaveChanges();
+
+ return Ok("User Verified");
 
 }
+
+private  string CreateRandomToken(){
+    return Convert.ToHexString(RandomNumberGenerator.GetBytes(64));
+    */
+
+
+
+

@@ -4,9 +4,15 @@ namespace Seat_Reservation.Models;
 
 public class PasswordChangeDto(){
 
+    
+
     [Key]
-    public int User_Id { get; set; }
+    public int Id{get;set;}
+    
     public required string Email{ get; set; }
-    public required string phone_number { get; set; }
+    public string PasswordResetToken{get;set;}
+
+    public DateTime ResetTokenExpires{get;set;}
+    
 
 }

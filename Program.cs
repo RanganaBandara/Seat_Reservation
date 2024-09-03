@@ -1,6 +1,8 @@
 using System.Security.Cryptography;
 using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.DataProtection;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
@@ -13,9 +15,18 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddSwaggerGen();
 
+
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
  builder.Services.AddDbContext<ApplicationDbContext>(option => option.UseSqlServer("name=ConnectionStrings:defaultConnection"));
+
+
+
+
+
+
+
 
 builder.Services.AddCors(options =>
         {
